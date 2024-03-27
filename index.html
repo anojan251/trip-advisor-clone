@@ -18,30 +18,31 @@
 </head>
 
 <body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <div class="navbar__mainlogo">
+                    <img src="./images/logo.svg" alt="trip-advisor logo">
 
-    <div class="navbar">
-        <nav>
-            <div class="navbar__mainlogo">
-                <img src="./images/logo.svg" alt="trip-advisor logo">
+                </div>
+                <div class="navbar__menu-one">
+                    <p class="navbar__item">Discover</p>
+                    <p class="navbar__item navbar__item--trip">Trips</p>
+                    <p class="navbar__item">Review</p>
+                    <p class="navbar__item">More</p>
 
-            </div>
-            <div class="navbar__menu-one">
-                <p class="navbar__item">Discover</p>
-                <p class="navbar__item">Trips</p>
-                <p class="navbar__item">Review</p>
-                <p class="navbar__item">More</p>
+                </div>
+                <!--Language Selection and Sign in button-->
+                <div class="navbar__Preferences">
+                    <i class="fa-solid fa-globe"></i>|
+                    <p>GBP</p>
+                    <p class="navbar__Preferences__signin">Sign in</p>
+                </div>
 
-            </div>
-                    <!--Language Selection and Sign in button-->
-            <div class="navbar__Preferences">
-                <i class="fa-solid fa-globe"></i>|
-                <p>GBP</p>
-                <p class="navbar__Preferences__signin">Sign in</p>
-            </div>
+            </nav>
 
-        </nav>
-
-    </div>
+        </div>
+    </header>
     <div class="container">
 
         <div>
@@ -49,21 +50,22 @@
                 Where to?
             </h1>
         </div>
-                    <!--Second Menu list-->
+        <!--Second Menu list-->
         <div class="container__main-menu">
-            <div><img src="./images/icons/home.png" alt="">
+            <div class="container__main-menu__item container__main-menu__item--1"><img src="./images/icons/home.png"
+                    alt="">
                 <p>Searc All</p>
             </div>
-            <div><img src="./images/icons/bed.png" alt="">
+            <div class="container__main-menu__item"><img src="./images/icons/bed.png" alt="">
                 <p>Hotels</p>
             </div>
-            <div><img src="./images/icons/ticket.png" alt="">
+            <div class="container__main-menu__item"><img src="./images/icons/ticket.png" alt="">
                 <p>Things to do</p>
             </div>
-            <div><img src="./images/icons/fork.png" alt="">
+            <div class="container__main-menu__item"><img src="./images/icons/fork.png" alt="">
                 <p>Restaurants</p>
             </div>
-            <div><img src="./images/icons/homestay.png" alt="">
+            <div class="container__main-menu__item"><img src="./images/icons/homestay.png" alt="">
                 <p>Holiday Rentals</p>
             </div>
         </div>
@@ -73,6 +75,7 @@
             <input type="search" name="" id="" placeholder="Places to go, things to do, hotels...">
             <p>Search</p>
         </div>
+
 
         <div class="container__coverphoto">
 
@@ -88,7 +91,7 @@
         <div class="container__title-one">
             <h2>Top destinations for the Easter holiday</h2>
             <a href="">See more</a>
-          
+
         </div>
         <div class="container__title-one__text">
             <p>Blooms, river cruises, interactive museums—fun for the whole fam awaits</p>
@@ -97,47 +100,47 @@
             <div class="container__photocard__item">
                 <img src="./images/ams.jpg" alt="">
                 <h4>Amsterdam, The Netherlands</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item">
                 <img src="./images/paris.jpg" alt="">
                 <h4>Paris, France</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item">
                 <img src="./images/lon.jpg" alt="">
                 <h4>London, UK</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item">
                 <img src="./images/madeira.jpg" alt="">
                 <h4>Maderia, Portugal</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item">
                 <img src="./images/barce.jpg" alt="">
                 <h4>Barcelona, Spain</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
-           
+
         </div>
         <div class="container__recentsearches">
             <h2>Your recent search</h2>
-            <div class="container__recentsearches__two" >
+            <div class="container__recentsearches__two">
                 <div><img src="./images/icons/location.png" alt=""></div>
-                <div >
+                <div>
                     <h3>Amsterdam</h3>
-                <p>North Holland Province</p>
+                    <p>North Holland Province</p>
                 </div>
-                
+
             </div>
         </div>
-        
+        <!--Top experiences on Tripadvisor section-->
         <div class="container__title-one">
             <h2>Top experiences on Tripadvisor</h2>
         </div>
@@ -148,16 +151,52 @@
             <div class="container__photocard__item container__photocard__item--topexperiences">
                 <img src="./images/cliffs.jpg" alt="">
                 <h6>BEST SELLER</h6>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
                 <h4>Cliffs of Moher Tour Including Wild Atlantic Way and Galway City...</h4>
-                
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+
+                    <div class="container__photocard__item__rate-counts">
+                        <p>12,976</p>
+                    </div>
+
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £68 per adult
+                    <p>
+                </div>
+
 
             </div>
             <div class="container__photocard__item container__photocard__item--topexperiences">
                 <img src="./images/underground.jpg" alt="">
                 <h6>BEST SELLER</h6>
                 <h4>Underground Walking Tour in Edinburgh</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+
+                    <div class="container__photocard__item__rate-counts">
+                        <p>11,776</p>
+                    </div>
+
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £57 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item container__photocard__item--topexperiences">
@@ -165,40 +204,393 @@
                 <h6>LIKELY TO SELL OUT</h6>
                 <h6>BEST SELLER</h6>
                 <h4>Stonehenge, Windsor Castle, and Bath from...</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+
+                    <div class="container__photocard__item__rate-counts">
+                        <p>10,555</p>
+                    </div>
+
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £65 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
             <div class="container__photocard__item container__photocard__item--topexperiences">
                 <img src="./images/sagrada.jpg" alt="">
                 <h6>BEST SELLER</h6>
                 <h4>Fast Track Sagrada Familia Guided Tour</h4>
-                <div class="container__photocard__item__heart" ><img src="./images/icons/heart.png" alt=""></div>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+
+                    <div class="container__photocard__item__rate-counts">
+                        <p>9,654</p>
+                    </div>
+
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £48 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
 
             </div>
-           
-           
         </div>
-        <div class="container__video">
-            <video src="https://video-direct-tacdn-com.global.ssl.fastly.net/media/video-v/2b/31/cf/e8/caption_720.mp4" controls></video>
+
+        <!--Relax on a dreamy sightseeing cruise section-->
+        <div class="container__title-one">
+            <h2>Relax on a dreamy sightseeing cruise</h2>
+        </div>
+        <div class="container__title-one__text">
+            <p>Float down iconic rivers and canals at sunset, or go on a whale-watching cruise</p>
+        </div>
+        <div class="container__photocard container__photocard--topexperiences">
+            <div class="container__photocard__item container__photocard__item--topexperiences">
+                <img src="./images/canal.jpg" alt="">
+                <h6>BEST SELLER</h6>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+                <h4>Cliffs of Moher Tour Including Wild Atlantic Way and Galway City...</h4>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+                    <div class="container__photocard__item__rate-counts">
+                        <p>12,976</p>
+                    </div>
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £68 per adult
+                    <p>
+                </div>
             </div>
+            <div class="container__photocard__item container__photocard__item--topexperiences">
+                <img src="./images/venice.jpg" alt="">
+                <h6>BEST SELLER</h6>
+                <h4>Underground Walking Tour in Edinburgh</h4>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+                    <div class="container__photocard__item__rate-counts">
+                        <p>11,776</p>
+                    </div>
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £57 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+            <div class="container__photocard__item container__photocard__item--topexperiences">
+                <img src="./images/river.jpg" alt="">
+                <h6>LIKELY TO SELL OUT</h6>
+                <h6>BEST SELLER</h6>
+                <h4>Stonehenge, Windsor Castle, and Bath from...</h4>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+                    <div class="container__photocard__item__rate-counts">
+                        <p>10,555</p>
+                    </div>
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £65 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+            <div class="container__photocard__item container__photocard__item--topexperiences">
+                <img src="./images/budapest.jpg" alt="">
+                <h6>BEST SELLER</h6>
+                <h4>Fast Track Sagrada Familia Guided Tour</h4>
+                <div class="container__photocard__item__rating">
+                    <div class="container__photocard__item__rating--star">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="container__photocard__item__rating--item5"></p>
+                    </div>
+                    <div class="container__photocard__item__rate-counts">
+                        <p>9,654</p>
+                    </div>
+                </div>
+                <div class="container__photocard__item--price">
+                    <p>from £48 per adult
+                    <p>
+                </div>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--More to Explore section-->
+    <div class="container-two">
+
+        <!-- <div class="container__more-to-explore"> -->
+        <div class="container-two__title-one">
+            <h2>More to Explore</h2>
+        </div>
+
+        <div class="container__photocard container__photocard--more-to-explore-main">
+
+            <div class="container__photocard__item container__photocard__item--moretoexplore">
+                <div class="moretoexplore-img"><img src="./images/more/1.jpg" alt=""></div>
+                <h4>A guide to Italy’s underrated surf seasonr</h4>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+
+            <div class="container__photocard__item container__photocard__item--moretoexplore">
+                <div class="moretoexplore-img"><img src="./images/more/2.jpg" alt=""></div>
+                <h4>Beyond Berlin: 4 great art experiences just outside the city</h4>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+
+            <div class="container__photocard__item container__photocard__item--moretoexplore">
+                <div class="moretoexplore-img"><img src="./images/more/3.jpg" alt=""></div>
+                <h4>6 best Rome catacombs and how to tour them</h4>
+                <div class="container__photocard__item__heart"><img src="./images/icons/heart.png" alt=""></div>
+            </div>
+
+        </div>
+        <!-- </div> -->
+    </div>
+    <!--Relax on a dreamy sightseeing cruise section-->
+    <div class="container">
+
+        <div class="container__title-one">
+            <h2>Top destinations for your next holiday</h2>
+        </div>
+        <div class="container__title-one__text">
+            <p>Here's where your fellow travellers are headed</p>
+        </div>
+        <div class="container__photocard container__photocard--topexperiences">
+
+            <div class="container__photocard__item next__holiday container__photocard__item--holiday ">
+                <img src="./images/cities/edin.jpg" alt="">
+                <h1>Edinburgh,UK</h1>
+            </div>
+
+            <div class="container__photocard__item next__holiday container__photocard__item--holiday">
+                <img src="./images/cities/lon.jpg" alt="">
+                <h1>London,UK</h1>
+            </div>
+
+            <div class="container__photocard__item next__holiday container__photocard__item--holiday">
+                <img src="./images/cities/bris.jpg" alt="">
+                <h1>Bristol,UK</h1>
+            </div>
+
+            <div class="container__photocard__item next__holiday container__photocard__item--holiday">
+                <img src="./images/cities/lake.jpg" alt="">
+                <h1>Lake Districk,UK</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-three">
+        <!--video section-->
+        <div class="container__video">
+            <video src="https://video-direct-tacdn-com.global.ssl.fastly.net/media/video-v/2b/31/cf/e8/caption_720.mp4"
+                controls></video>
+
             <div class="container__title-one container__title-one--video">
                 <h2>Watch The Wanderer Season 1 on Amazon Prime Video</h2>
             </div>
             <div class="container__title-one__text">
                 <p>Follow authentic travellers as they visit unknown destinations to write their own travel guide</p>
             </div>
-            <div class="container__Traveller-choice">
-                <div class="container__Traveller-choice__left">
-                    <img src="./images/TC_badge_yellow.svg" alt="">
-                    <h1>Travellers' Choice Awards Best of the Best</h1>
-                    <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
-                    <h5>See the winners</h5>
+        </div>
+
+    </div>
+    <!-- Travellers' Choice -->
+    <div class="container-four">
+        <div class="container__traveller-choice">
+
+            <div class="container__traveller-choice__left">
+                <img src="./images/TC_badge_yellow.svg" alt="">
+                <h1>Travellers' Choice Awards Best of the Best</h1>
+                <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+                <h5>See the winners</h5>
+            </div>
+
+            <div class="container__traveller-choice__rigt">
+                <img src="https://static.tacdn.com/img2/brand/feed/tc_cards_2024_c04.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!--Trending in travel-->
+    <div class="container container--trending-in-travel">
+        <h1>Trending in Travel</h1>
+        <h3>Spring Destinations</h3>
+        <div class="cities">
+
+            <div class="cities__town">
+                <p>Majorca</p>
+                <p>Seville</p>
+                <p>Crete</p>
+                <p>Paris</p>
+            </div>
+
+            <div class="cities__town">
+                <p>Tenerife</p>
+                <p>Prague</p>
+                <p>Rhodes</p>
+                <p>Sicily</p>
+            </div>
+
+            <div class="cities__town">
+                <p>Lanzarote</p>
+                <p> Budapest</p>
+                <p>Egypt</p>
+                <p>Lisbon</p>
+            </div>
+
+            <div class="cities__town">
+                <p>Sardinia</p>
+                <p>Florence</p>
+                <p>Istanbul</p>
+                <p>Venice</p>
+            </div>
+
+            <div class="cities__town">
+                <p>Madeira</p>
+                <p>Amsterdam</p>
+                <p>Dubrovnik</p>
+                <p>Barcelona</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-two container-two--footer">
+        <div class="footer">
+            <div class="footer__about">
+                <p><b>About Trip Advisor</b></p>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Accessibility Statement</p>
+            </div>
+            <div class="footer__explore">
+                <p><b>Explore</b></p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p> Join </p>
+                <p>Travellers' Choice</p>
+                <p>GreenLeaders</p>
+                <p>Help Centre</p>
+                <p>Travel Articles</p>
+            </div>
+            <div class="footer__business">
+                <p><b>Do Business With Us</b></p>
+                <p>Owners</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Advertise with Us</p>
+                <p>Access our Content API</p>
+                <p>Become an Affiliat</p>
+
+                <div class="footer__business__app">
+                    <p><b>Get the App</b></p>
+                    <p>iPhone App</p>
+                    <p>Android App</p>
                 </div>
-                <div class="container__Traveller-choice__rigt">
-                    <img src="https://static.tacdn.com/img2/brand/feed/tc_cards_2024_c04.png" alt="">
-                </div>
+            </div>
+            <div class="footer__sites">
+                <p><b>Tripadvisor Sites</b></p>
+                <p>Book the best restaurants with TheFork</p>
+                <p>Book tours and attraction tickets on Viator</p>
+                <p>Read cruise reviews on Cruise Critic</p>
+                <p>Search for holiday rentals on Holiday Lettings</p>
 
             </div>
+        </div>
+
+        <div class="footer-copyrights">
+
+            <div class="footer-logo"><img src="./images/icons/Tripadvisor_logoset_solid_green.svg" alt=""></div>
+            <div class="footer-copyrights__text">
+                <p>© 2024 Tripadvisor LLC All rights reserved.</p>
+            </div>
+            <div class="llc">
+
+                <p>Terms of Use</p>
+                <p>Privacy and Cookies Statement</p>
+                <p>Cookie consent</p>
+                <p>Site Map</p>
+                <p>How the site works</p>
+                <p>Contact us</p>
+
+            </div>
+            <div class="footer-copyrights__terms">
+                <p>This is the version of our website addressed to speakers of English in United Kingdom. If you are a
+                    resident of another country or region, please select the appropriate version of Tripadvisor for your
+                    country or region in the drop-down menu. more</p>
+            </div>
+            <div class="preferrence">
+
+                <div>
+                    <select name="currency">
+                        <option value="">£ GBP</option>
+                        <option value="">Rs.. LKR</option>
+                        <option value="">Rs. INR</option>
+                        <option value="">EUR</option>
+                    </select>
+                </div>
+                <div class="countries">
+                    <div>
+                        <select name="currency">
+                            <option value="">United Kingdom</option>
+                            <option value="">Sri Lanka</option>
+                            <option value="">India</option>
+                            <option value="">UAE</option>
+                        </select>
+                    </div>
+                    <div class="social">
+                        <img src="./images/social/facebook.png" alt="">
+                        <img src="./images/social/twitter.png" alt="">
+                        <img src="./images/social/instagram.png" alt="">
+        
+                        <img src="./images/social/pinterest.png" alt="">
+        
+                    </div>
+                </div>
+             
+            </div>
+            
+        </div>
     </div>
 </body>
 
